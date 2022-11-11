@@ -1,4 +1,4 @@
-async function getMovies(category) {
+async function getHorrorMovies() {
   const response = await fetch(
     "https://striveschool-api.herokuapp.com/api/movies/horror",
     {

@@ -19,11 +19,14 @@ function renderMovies(listOfMovies, category) {
   listOfMovies.forEach((movie) => {
     const movieCol = document.createElement("div");
     movieCol.classList.add("col-md-2");
-    movieCol.innerHTML = `<img
+
+    movieCol.innerHTML = `
+                                    <a class"col" href="details.html?movie_id=${movie._id}">
+                                    <img
                                     class="movie-cover"
                                     id="${category}-movie-cover"
-                                    src=${movie.imageUrl}
-                                    />`;
+                                    src=${movie.imageUrl}/>
+                                    </a>`;
 
     movieRow.appendChild(movieCol);
   });

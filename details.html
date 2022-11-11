@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Details</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html">NETFLIX</a>
+    </nav>
+
+    <img
+      src="https://t-mobile.scene7.com/is/image/Tmusprod/netflix-hero.desktop?wid=1280&hei=360&fmt=png-alpha"
+      alt="netflix-image"
+      style="width: 100%; height: 30vh; object-fit: cover"
+    />
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 my-5 text-center">
+          <h6 class="mb-3 movie-name"></h6>
+          <div class="my-3" id="movie-details" style="text-align: center">
+            <!-- <h3 class=>The Wratched</h3>
+            <img
+              src="https://www.protocol.com/media-library/netflix-queried-people-in-a-survey-about-a-wide-range-of-features-and-content-including-podcasts-user-generated-playlists-how.jpg?id=24541797&width=1245&height=700&quality=85&coordinates=0%2C314%2C0%2C315"
+              alt=""
+              style="
+                width: 400px;
+                height: auto;
+                object-fit: cover;
+                margin-block: 20px;
+              "
+            />
+            <p>Set in Sacramento, California in 2002, amidst a rapidly shifting American economic landscape, Lady Bird is an affecting look at the relationships that shape us, ...</p>
+            <div><strong>category:</strong> horror</div>   -->
+          </div>
+          <button type="button" class="btn btn-success" onclick="onEdit()">
+            Edit movie
+          </button>
+          <button type="button" class="btn btn-danger" onclick="onDelete()">
+            Delete movie
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/details.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
